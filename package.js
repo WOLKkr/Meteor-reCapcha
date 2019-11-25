@@ -1,6 +1,6 @@
 Package.describe({
     name: 'wolkkr:recaptcha',
-    version: '0.0.2',
+    version: '0.0.3',
     summary: 'Implementation of Google reCAPTCHA V2 for Meteor',
     git: 'https://github.com/WOLKkr/Meteor-reCaptcha.git',
     documentation: 'README.md',
