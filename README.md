@@ -42,7 +42,7 @@ Meteor.startup(function() {
 
 ## Usage
 
-###On The Client
+### On The Client
 
 Include the `{{> reCAPTCHA}}` template block in your form template.
 
