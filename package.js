@@ -1,6 +1,6 @@
 Package.describe({
     name: 'wolkkr:recaptcha',
-    version: '0.0.3',
+    version: '0.0.4',
     summary: 'Implementation of Google reCAPTCHA V2 for Meteor',
     git: 'https://github.com/WOLKkr/Meteor-reCaptcha.git',
     documentation: 'README.md',
@@ -8,7 +8,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-    api.use(['templating@1.0.9', 'handlebars@1.0.7', 'tracker@1.2.0'], 'client');
+    api.use(['templating@1.0.9', 'handlebars@1.0.7'], 'client');
     api.use(['http@1.4.2'], 'server');
     api.addFiles(['server/server.js'], 'server');
     api.addFiles(['client/client.html', 'client/client.js'], 'client');
@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 });
 
 Package.onTest((api) => {
-    api.use(['templating@1.0.9', 'handlebars@1.0.7', 'tracker@1.2.0'], 'client');
+    api.use(['templating@1.0.9', 'handlebars@1.0.7'], 'client');
     api.use(['http@1.4.2'], 'server');
     api.addFiles(['server/server.js'], 'server');
     api.addFiles(['client/client.html', 'client/client.js'], 'client');

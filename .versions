@@ -17,7 +17,7 @@ http@1.4.2
 id-map@1.1.0
 inter-process-messaging@0.1.0
 jquery@1.0.2
-local-test:wolkkr:recaptcha@0.0.2
+local-test:wolkkr:recaptcha@0.0.4
 meteor@1.9.3
 modern-browsers@0.1.4
 modules@0.14.0
@@ -31,4 +31,4 @@ templating@1.0.9
 tracker@1.2.0
 underscore@1.0.10
 url@1.2.0
-wolkkr:recaptcha@0.0.2
+wolkkr:recaptcha@0.0.4
